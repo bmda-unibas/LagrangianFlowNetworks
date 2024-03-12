@@ -1,5 +1,21 @@
 # Lagrangian Flow Networks (LFlows)
 
+Code corresponding to the "Lagrangian Flow Networks for Conservation Laws" paper published in ICLR24.
+[Openreview Link](https://openreview.net/forum?id=Nshk5YpdWE&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions))
+
+
+```
+@inproceedings{
+torres2024lagrangian,
+title={Lagrangian Flow Networks for Conservation Laws},
+author={Fabricio Arend Torres and Marcello Massimo Negri and Marco Inversi and Jonathan Aellen and Volker Roth},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=Nshk5YpdWE}
+}
+```
+
+
 ## Setting up the Environment.
 The environment set-up was tested with [conda 23.7.3](https://docs.conda.io/projects/miniconda/en/latest/),
 using the relatively new [libmamba solver](https://www.anaconda.com/blog/conda-is-fast-now).
