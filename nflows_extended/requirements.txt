@@ -1,0 +1,14 @@
+matplotlib
+numpy
+tensorboard
+torch
+tqdm
+autoflake
+black
+flake8
+isort
+pytest
+pyyaml
+torchtestcase
+umnn
+parameterized

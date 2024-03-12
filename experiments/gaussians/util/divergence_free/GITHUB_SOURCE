@@ -1,0 +1,11 @@
+This code was obtained and adapted from:
+
+https://github.com/facebookresearch/neural-conservation-law
+
+@inproceedings{
+    richter-powell2022neural,
+    title={Neural Conservation Laws: A Divergence-Free Perspective},
+    author={Jack Richter-Powell and Yaron Lipman and Ricky T. Q. Chen},
+    booktitle={Advances in Neural Information Processing Systems},
+    year={2022},
+}

@@ -1,0 +1,84 @@
+workspace: /home/arefab00/projects/lagrangian_flow_nets/experiments/optimal_transport/DFNN
+Found 2 CUDA devices.
+NVIDIA GeForce RTX 2080 Ti 	 Memory: 10.76GB
+Quadro P600 	 Memory: 1.93GB
+NeuralConservationLaw(
+  (F_zero): SubharmonicMixture(
+    (params): Sequential(
+      (0): Linear(in_features=1, out_features=96, bias=True)
+      (1): Swish(96)
+      (2): Linear(in_features=96, out_features=96, bias=True)
+      (3): Swish(96)
+      (4): Linear(in_features=96, out_features=96, bias=True)
+      (5): Swish(96)
+      (6): Linear(in_features=96, out_features=96, bias=True)
+      (7): Swish(96)
+      (8): Linear(in_features=96, out_features=640, bias=True)
+    )
+    (exp1): Exp1()
+  )
+  (F_other): Sequential(
+    (0): Linear(in_features=2, out_features=96, bias=True)
+    (1): Softplus(beta=20, threshold=20)
+    (2): Linear(in_features=96, out_features=96, bias=True)
+    (3): Softplus(beta=20, threshold=20)
+    (4): Linear(in_features=96, out_features=96, bias=True)
+    (5): Softplus(beta=20, threshold=20)
+    (6): Linear(in_features=96, out_features=96, bias=True)
+    (7): Softplus(beta=20, threshold=20)
+    (8): Linear(in_features=96, out_features=2, bias=True)
+  )
+)
+Iter 10 | Time 0.8653 | Loss 10.8640(11.2992) | GradNorm 0.7077 | LCoef 50.000000
+Iter 20 | Time 0.2296 | Loss 10.3437(11.2463) | GradNorm 0.9068 | LCoef 50.000000
+Iter 30 | Time 0.2350 | Loss 8.8751(11.0966) | GradNorm 9.1859 | LCoef 50.000000
+Iter 40 | Time 0.2393 | Loss 8.4978(10.8705) | GradNorm 34.8523 | LCoef 50.000000
+Iter 50 | Time 0.2371 | Loss 7.5246(10.5727) | GradNorm 28.4618 | LCoef 50.000000
+Iter 60 | Time 0.2393 | Loss 6.1188(10.2197) | GradNorm 54.2309 | LCoef 50.000000
+Iter 70 | Time 0.2395 | Loss 5.7433(9.8204) | GradNorm 46.3261 | LCoef 50.000000
+Iter 80 | Time 0.2405 | Loss 5.4403(9.4149) | GradNorm 76.5865 | LCoef 50.000000
+Iter 90 | Time 0.2397 | Loss 4.7885(8.9878) | GradNorm 70.5908 | LCoef 50.000000
+Iter 100 | Time 0.2367 | Loss 4.4299(8.5496) | GradNorm 73.0877 | LCoef 50.000000
+Iter 110 | Time 0.2378 | Loss 4.3801(8.1473) | GradNorm 115.0070 | LCoef 50.000000
+Iter 120 | Time 0.2370 | Loss 4.2334(7.7521) | GradNorm 99.6862 | LCoef 50.000000
+Iter 130 | Time 0.2391 | Loss 3.9347(7.3727) | GradNorm 113.0949 | LCoef 50.000000
+Iter 140 | Time 0.2440 | Loss 3.4786(7.0038) | GradNorm 117.9140 | LCoef 50.000000
+Iter 150 | Time 0.2440 | Loss 3.8995(6.6528) | GradNorm 160.1466 | LCoef 50.000000
+Iter 160 | Time 0.2426 | Loss 3.4146(6.3287) | GradNorm 134.3567 | LCoef 50.000000
+Iter 170 | Time 0.2425 | Loss 3.5450(6.0398) | GradNorm 127.4392 | LCoef 50.000000
+Iter 180 | Time 0.2386 | Loss 2.9041(5.7610) | GradNorm 112.0846 | LCoef 50.000000
+Iter 190 | Time 0.2400 | Loss 2.7185(5.4714) | GradNorm 127.1071 | LCoef 50.000000
+Iter 200 | Time 0.2402 | Loss 2.7316(5.2011) | GradNorm 122.9441 | LCoef 50.000000
+Iter 210 | Time 0.2396 | Loss 2.6057(4.9613) | GradNorm 135.8145 | LCoef 50.000000
+Iter 220 | Time 0.2371 | Loss 2.3954(4.7343) | GradNorm 116.7880 | LCoef 50.000000
+Iter 230 | Time 0.2377 | Loss 2.6169(4.5206) | GradNorm 138.6827 | LCoef 50.000000
+Iter 240 | Time 0.2419 | Loss 2.5048(4.3321) | GradNorm 122.5399 | LCoef 50.000000
+Iter 250 | Time 0.2350 | Loss 2.4677(4.1474) | GradNorm 106.6513 | LCoef 50.000000
+Iter 260 | Time 0.2358 | Loss 2.1410(3.9718) | GradNorm 121.2442 | LCoef 50.000000
+Iter 270 | Time 0.2360 | Loss 2.3814(3.8148) | GradNorm 122.4812 | LCoef 50.000000
+Iter 280 | Time 0.2406 | Loss 2.2386(3.6779) | GradNorm 114.5811 | LCoef 50.000000
+Iter 290 | Time 0.2459 | Loss 2.3426(3.5560) | GradNorm 126.6598 | LCoef 50.000000
+Iter 300 | Time 0.2397 | Loss 2.1496(3.4144) | GradNorm 110.7319 | LCoef 50.000000
+Iter 310 | Time 0.2393 | Loss 2.0017(3.2912) | GradNorm 133.1257 | LCoef 50.000000
+Iter 320 | Time 0.2423 | Loss 2.0195(3.1617) | GradNorm 115.8381 | LCoef 50.000000
+Iter 330 | Time 0.2457 | Loss 1.9070(3.0372) | GradNorm 112.0736 | LCoef 50.000000
+Iter 340 | Time 0.2429 | Loss 1.9279(2.9286) | GradNorm 126.3763 | LCoef 50.000000
+Iter 350 | Time 0.2453 | Loss 1.7433(2.8264) | GradNorm 116.0222 | LCoef 50.000000
+Iter 360 | Time 0.2408 | Loss 1.9759(2.7360) | GradNorm 133.3268 | LCoef 50.000000
+Iter 370 | Time 0.2418 | Loss 1.9261(2.6500) | GradNorm 125.1350 | LCoef 50.000000
+Iter 380 | Time 0.2433 | Loss 1.8588(2.5689) | GradNorm 125.0736 | LCoef 50.000000
+Iter 390 | Time 0.2457 | Loss 2.1037(2.5047) | GradNorm 136.3069 | LCoef 50.000000
+Iter 400 | Time 0.2449 | Loss 2.1914(2.4716) | GradNorm 114.8080 | LCoef 50.000000
+Iter 410 | Time 0.2447 | Loss 1.7886(2.4185) | GradNorm 115.1916 | LCoef 50.000000
+Iter 420 | Time 0.2413 | Loss 2.0171(2.3590) | GradNorm 122.7722 | LCoef 50.000000
+Iter 430 | Time 0.2410 | Loss 1.8638(2.3092) | GradNorm 117.3355 | LCoef 50.000000
+Iter 440 | Time 0.2463 | Loss 1.6814(2.2585) | GradNorm 115.9549 | LCoef 50.000000
+Iter 450 | Time 0.2428 | Loss 1.7736(2.2108) | GradNorm 118.0731 | LCoef 50.000000
+Iter 460 | Time 0.2452 | Loss 1.8339(2.1690) | GradNorm 132.6412 | LCoef 50.000000
+Iter 470 | Time 0.2456 | Loss 1.7835(2.1444) | GradNorm 111.0743 | LCoef 50.000000
+Iter 480 | Time 0.2448 | Loss 1.6320(2.1113) | GradNorm 105.8820 | LCoef 50.000000
+Iter 490 | Time 0.2449 | Loss 1.9595(2.0993) | GradNorm 108.3248 | LCoef 50.000000
+Iter 500 | Time 0.2434 | Loss 1.8709(2.0796) | GradNorm 113.3301 | LCoef 50.000000
+Iter 510 | Time 0.9261 | Loss 1.9782(2.0657) | GradNorm 114.6856 | LCoef 50.000000
+Iter 520 | Time 0.2412 | Loss 1.5832(2.0303) | GradNorm 101.4362 | LCoef 50.000000
+Iter 530 | Time 0.2367 | Loss 1.7980(2.0088) | GradNorm 97.9186 | LCoef 50.000000
